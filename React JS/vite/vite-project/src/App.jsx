@@ -54,28 +54,30 @@
 // export default App;
 
 
-import Card from './components/card.jsx';
-import './App.css';
-import EventDemo from './components/EventDemo.jsx';
-import Count from './components/Count.jsx';
-import Form from './components/Form.jsx';
-import Color from './components/Color.jsx';
-import BirthdayWish from './components/BirthdayWish.jsx';
-import EventHandler from './components/EventHandler.jsx'; 
-import Timer from './components/Timer.jsx';
 
+
+// import Card from './components/card.jsx';
+import './App.css';
+// import EventDemo from './components/EventDemo.jsx';
+// import Count from './components/Count.jsx';
+// import Form from './components/Form.jsx';
+// import Color from './components/Color.jsx';
+// import BirthdayWish from './components/BirthdayWish.jsx';
+// import EventHandler from './components/EventHandler.jsx'; 
+// import Timer from './components/Timer.jsx';
+import Countdown from './components/ca1.jsx';
+import UnControlledFn from './components/unControlledFn.jsx';
+import UnControlled from './components/que1.jsx';
+import FetchData from './components/FetchData.jsx';
+import Fetch from './components/Fetch.jsx';
 function App() {
   return (
     <div>
-      <Timer />
-      <EventHandler />
-      <Card />
-      <EventDemo />
-      <Count />
-      <Form />
-      <Color />
-      <BirthdayWish name="Bhanu" age={21} />
-    <h1 className="bg-blue-500 text-white text-3xl p-4">Hello</h1>
+      <Countdown />
+      <FetchData />
+      <UnControlledFn />
+      <UnControlled />
+      <Fetch />
     </div>
   )
 }
